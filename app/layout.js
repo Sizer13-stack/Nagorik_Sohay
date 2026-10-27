@@ -1,0 +1,3 @@
+import './globals.css';import Shell from '../components/Shell';
+export const metadata={title:'নাগরিক সহায় · Nagorik Sohay',description:'CivicSphere AI prototype'};
+export default function L({children}){return<html lang="bn"><head><meta name="viewport" content="width=device-width,initial-scale=1"/><link rel="preconnect" href="https://fonts.googleapis.com"/><link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Fraunces:opsz,wght@9..144,600;700&family=Noto+Sans+Bengali:wght@400;500;600;700&family=Noto+Serif+Bengali:wght@600;700&display=swap" rel="stylesheet"/></head><body><Shell>{children}</Shell></body></html>}
